@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2336A7F0F45440935556D3DDAC798E27 /* CosmosLayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3970162EB59F3CA39D44B537645382F6 /* CosmosLayerHelper.swift */; };
+		299992941CFA463D0A7204190D39FA73 /* CosmosRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4B94B158C259C6FF9030A3F5519CAF /* CosmosRating.swift */; };
+		3E73DB65BEC900EFC6EC35C5F2A526B3 /* CosmosAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E08BCB287F4E56381A6B2C30092CCE /* CosmosAccessibility.swift */; };
+		3EFCCC931EFB340108AB20B34C9FD626 /* CosmosTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3B8503803FE623C614F05E5627441 /* CosmosTouch.swift */; };
+		42295A0C098BB044F391C174DA9D5859 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		58CB1B41FEB92F33E4DB707B1C1138D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		606A219B918881A70A78CD91EACDA8F7 /* Cosmos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 160CEB86A504E643A36262CCCF2DA0AC /* Cosmos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62A8CA31EA35172D3375E11586921F82 /* CosmosTouchTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2947E58951C7D25E178C23D901FD7A /* CosmosTouchTarget.swift */; };
+		63ECC77E4E536666556C8D2791280861 /* StarLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B53E3987A975F9F8578AA5C27DA4A41 /* StarLayer.swift */; };
+		7CCF424046BEED00EB99738D76C64132 /* StarFillMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A4CCACA4429EB2D4708FE5E7004FBF /* StarFillMode.swift */; };
+		883E1BE9856159DB1EBBEBEEA85D8199 /* CosmosSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A42CEA1023810043371E6C8D8F22AA /* CosmosSize.swift */; };
+		984ACF077007E44906F6A2F419E3D3C9 /* CosmosLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D93DAEBF424A4962B45B7B5584E190 /* CosmosLayers.swift */; };
+		9D1D58A5ED379ABDA6BF567CE70A6372 /* Cosmos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D380600EC25099CC4090FE72B2D36EB1 /* Cosmos-dummy.m */; };
+		A0C58A338DA547DC3EAA5CD10A7D305E /* CosmosLocalizedRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E96800DAAFF74D04D873D69DD7C5406 /* CosmosLocalizedRating.swift */; };
+		A84E190C472D28E1EB771327D55A0257 /* CosmosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D61893FA1B5E01666B1F00E724ECAE /* CosmosView.swift */; };
+		C2C902F590C638994969F0787F8396B2 /* Pods-InVision-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90F9DB81FB8CB4E0D7B28DD6180DAD07 /* Pods-InVision-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC00126E443C3CEEFA221930E1B0CC54 /* CosmosDefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2CEF7B1DF2836284360C9907D00DE0 /* CosmosDefaultSettings.swift */; };
+		D7453EEDB3CD57C33612C94FCBF8A57E /* CosmosSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608941971F8A9C59646145B74F814F0F /* CosmosSettings.swift */; };
+		DF717A08CF1193FFCA4FE75041293A18 /* CosmosText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7926D03DB6DDED09F1EF065DCDCE51B8 /* CosmosText.swift */; };
+		E1D1FC2043F10695A8871C34E3619C12 /* Pods-InVision-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B30711A8A3163547BFF0147299C559 /* Pods-InVision-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		451470D804827468E4471748776B45B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 608B49B5DDACC601EE8044A1931993F9;
+			remoteInfo = Cosmos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		160CEB86A504E643A36262CCCF2DA0AC /* Cosmos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-umbrella.h"; sourceTree = "<group>"; };
+		1DE35E5B7FA70269B7EFF01EB7B6496B /* Pods-InVision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InVision.release.xcconfig"; sourceTree = "<group>"; };
+		2F6433EA2E1E4685DF700641C2F4B6B1 /* Pods-InVision-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InVision-acknowledgements.plist"; sourceTree = "<group>"; };
+		30D61893FA1B5E01666B1F00E724ECAE /* CosmosView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosView.swift; path = Cosmos/CosmosView.swift; sourceTree = "<group>"; };
+		3970162EB59F3CA39D44B537645382F6 /* CosmosLayerHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayerHelper.swift; path = Cosmos/CosmosLayerHelper.swift; sourceTree = "<group>"; };
+		46B30711A8A3163547BFF0147299C559 /* Pods-InVision-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InVision-dummy.m"; sourceTree = "<group>"; };
+		4B53E3987A975F9F8578AA5C27DA4A41 /* StarLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarLayer.swift; path = Cosmos/StarLayer.swift; sourceTree = "<group>"; };
+		4DF918D7A1F0C5C80210DAF2CC0DECD3 /* Pods-InVision.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-InVision.modulemap"; sourceTree = "<group>"; };
+		52BF1D6CC8B423F08C8146D634118F8A /* Cosmos-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-prefix.pch"; sourceTree = "<group>"; };
+		52D93DAEBF424A4962B45B7B5584E190 /* CosmosLayers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayers.swift; path = Cosmos/CosmosLayers.swift; sourceTree = "<group>"; };
+		57A42CEA1023810043371E6C8D8F22AA /* CosmosSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSize.swift; path = Cosmos/CosmosSize.swift; sourceTree = "<group>"; };
+		608941971F8A9C59646145B74F814F0F /* CosmosSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSettings.swift; path = Cosmos/CosmosSettings.swift; sourceTree = "<group>"; };
+		7926D03DB6DDED09F1EF065DCDCE51B8 /* CosmosText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosText.swift; path = Cosmos/CosmosText.swift; sourceTree = "<group>"; };
+		90F9DB81FB8CB4E0D7B28DD6180DAD07 /* Pods-InVision-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InVision-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		942D3F3A9DE924792BA42E77B8781BA8 /* Pods-InVision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InVision.debug.xcconfig"; sourceTree = "<group>"; };
+		96E08BCB287F4E56381A6B2C30092CCE /* CosmosAccessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosAccessibility.swift; path = Cosmos/CosmosAccessibility.swift; sourceTree = "<group>"; };
+		99C4B5A4CCA5EDF4A850C896110E6A77 /* Pods_InVision.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InVision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E96800DAAFF74D04D873D69DD7C5406 /* CosmosLocalizedRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLocalizedRating.swift; path = Cosmos/CosmosLocalizedRating.swift; sourceTree = "<group>"; };
+		AD870A9C5BA4CF423D56F8CB845028F3 /* Pods-InVision-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InVision-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B0EA18D6D053A9F8890803384483A2DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2D7316C34F54FA91E33DB5A81560465 /* Pods-InVision-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InVision-resources.sh"; sourceTree = "<group>"; };
+		C97E57D45A3FBE93BD6A84AE69064BCC /* Cosmos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cosmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1E3B8503803FE623C614F05E5627441 /* CosmosTouch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouch.swift; path = Cosmos/CosmosTouch.swift; sourceTree = "<group>"; };
+		D380600EC25099CC4090FE72B2D36EB1 /* Cosmos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cosmos-dummy.m"; sourceTree = "<group>"; };
+		DAAA82169E02FC93EF73DF78D874A242 /* Cosmos.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cosmos.xcconfig; sourceTree = "<group>"; };
+		DC98F764A6CB756C87DF2478006C1318 /* Cosmos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Cosmos.modulemap; sourceTree = "<group>"; };
+		E39A74F84CB957528A7D1B1D6044C346 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB2947E58951C7D25E178C23D901FD7A /* CosmosTouchTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouchTarget.swift; path = Cosmos/Helpers/CosmosTouchTarget.swift; sourceTree = "<group>"; };
+		EE4B94B158C259C6FF9030A3F5519CAF /* CosmosRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosRating.swift; path = Cosmos/CosmosRating.swift; sourceTree = "<group>"; };
+		F2A4CCACA4429EB2D4708FE5E7004FBF /* StarFillMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarFillMode.swift; path = Cosmos/StarFillMode.swift; sourceTree = "<group>"; };
+		F835B7EB9B8B9596761A8FED2BDF8103 /* Pods-InVision-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InVision-frameworks.sh"; sourceTree = "<group>"; };
+		FD2CEF7B1DF2836284360C9907D00DE0 /* CosmosDefaultSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosDefaultSettings.swift; path = Cosmos/CosmosDefaultSettings.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDF29492FA055C53559A30D4C6E1EE1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42295A0C098BB044F391C174DA9D5859 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09B29CA4A0E85650BE6493A9D2F1E20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58CB1B41FEB92F33E4DB707B1C1138D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C45B503191AC8E0C9A4CB36736F7878 /* Pods-InVision */ = {
+			isa = PBXGroup;
+			children = (
+				B0EA18D6D053A9F8890803384483A2DA /* Info.plist */,
+				4DF918D7A1F0C5C80210DAF2CC0DECD3 /* Pods-InVision.modulemap */,
+				AD870A9C5BA4CF423D56F8CB845028F3 /* Pods-InVision-acknowledgements.markdown */,
+				2F6433EA2E1E4685DF700641C2F4B6B1 /* Pods-InVision-acknowledgements.plist */,
+				46B30711A8A3163547BFF0147299C559 /* Pods-InVision-dummy.m */,
+				F835B7EB9B8B9596761A8FED2BDF8103 /* Pods-InVision-frameworks.sh */,
+				C2D7316C34F54FA91E33DB5A81560465 /* Pods-InVision-resources.sh */,
+				90F9DB81FB8CB4E0D7B28DD6180DAD07 /* Pods-InVision-umbrella.h */,
+				942D3F3A9DE924792BA42E77B8781BA8 /* Pods-InVision.debug.xcconfig */,
+				1DE35E5B7FA70269B7EFF01EB7B6496B /* Pods-InVision.release.xcconfig */,
+			);
+			name = "Pods-InVision";
+			path = "Target Support Files/Pods-InVision";
+			sourceTree = "<group>";
+		};
+		3C5BCC8BE8A17DCFB07D0EFD6A13A0F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB2FBC9ED16BD5881C09872E19742703 /* Cosmos */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A57ACCA2D6B1989FADEE5F86B159BBF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C45B503191AC8E0C9A4CB36736F7878 /* Pods-InVision */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3C5BCC8BE8A17DCFB07D0EFD6A13A0F7 /* Pods */,
+				C9DA06A1F181917F41A06E1B978C3962 /* Products */,
+				5A57ACCA2D6B1989FADEE5F86B159BBF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9DA06A1F181917F41A06E1B978C3962 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C97E57D45A3FBE93BD6A84AE69064BCC /* Cosmos.framework */,
+				99C4B5A4CCA5EDF4A850C896110E6A77 /* Pods_InVision.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD6AE5073F0FC8E3BDF5A4CA9866306F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC98F764A6CB756C87DF2478006C1318 /* Cosmos.modulemap */,
+				DAAA82169E02FC93EF73DF78D874A242 /* Cosmos.xcconfig */,
+				D380600EC25099CC4090FE72B2D36EB1 /* Cosmos-dummy.m */,
+				52BF1D6CC8B423F08C8146D634118F8A /* Cosmos-prefix.pch */,
+				160CEB86A504E643A36262CCCF2DA0AC /* Cosmos-umbrella.h */,
+				E39A74F84CB957528A7D1B1D6044C346 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cosmos";
+			sourceTree = "<group>";
+		};
+		EB2FBC9ED16BD5881C09872E19742703 /* Cosmos */ = {
+			isa = PBXGroup;
+			children = (
+				96E08BCB287F4E56381A6B2C30092CCE /* CosmosAccessibility.swift */,
+				FD2CEF7B1DF2836284360C9907D00DE0 /* CosmosDefaultSettings.swift */,
+				3970162EB59F3CA39D44B537645382F6 /* CosmosLayerHelper.swift */,
+				52D93DAEBF424A4962B45B7B5584E190 /* CosmosLayers.swift */,
+				9E96800DAAFF74D04D873D69DD7C5406 /* CosmosLocalizedRating.swift */,
+				EE4B94B158C259C6FF9030A3F5519CAF /* CosmosRating.swift */,
+				608941971F8A9C59646145B74F814F0F /* CosmosSettings.swift */,
+				57A42CEA1023810043371E6C8D8F22AA /* CosmosSize.swift */,
+				7926D03DB6DDED09F1EF065DCDCE51B8 /* CosmosText.swift */,
+				D1E3B8503803FE623C614F05E5627441 /* CosmosTouch.swift */,
+				EB2947E58951C7D25E178C23D901FD7A /* CosmosTouchTarget.swift */,
+				30D61893FA1B5E01666B1F00E724ECAE /* CosmosView.swift */,
+				F2A4CCACA4429EB2D4708FE5E7004FBF /* StarFillMode.swift */,
+				4B53E3987A975F9F8578AA5C27DA4A41 /* StarLayer.swift */,
+				CD6AE5073F0FC8E3BDF5A4CA9866306F /* Support Files */,
+			);
+			path = Cosmos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E928F1133426FDAE3B9BA5E165FCA7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C902F590C638994969F0787F8396B2 /* Pods-InVision-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5AE91D1E4458566D1507A193595D7D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606A219B918881A70A78CD91EACDA8F7 /* Cosmos-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		608B49B5DDACC601EE8044A1931993F9 /* Cosmos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B580BEC7E92B10FC3C82CD96A459AF5D /* Build configuration list for PBXNativeTarget "Cosmos" */;
+			buildPhases = (
+				64ACD90BE8F69E7FD4BDFC22146B42DF /* Sources */,
+				DDF29492FA055C53559A30D4C6E1EE1E /* Frameworks */,
+				B5AE91D1E4458566D1507A193595D7D6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cosmos;
+			productName = Cosmos;
+			productReference = C97E57D45A3FBE93BD6A84AE69064BCC /* Cosmos.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C8BE68AC2E163B0796807C085A41F08 /* Pods-InVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD201CA742EC6CF37C50DD52C0C197D /* Build configuration list for PBXNativeTarget "Pods-InVision" */;
+			buildPhases = (
+				7C20CC0180089D9767C8268DB9158B7F /* Sources */,
+				F09B29CA4A0E85650BE6493A9D2F1E20 /* Frameworks */,
+				1E928F1133426FDAE3B9BA5E165FCA7B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A9CCD820428B90D2381EB7056E5A745 /* PBXTargetDependency */,
+			);
+			name = "Pods-InVision";
+			productName = "Pods-InVision";
+			productReference = 99C4B5A4CCA5EDF4A850C896110E6A77 /* Pods_InVision.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C9DA06A1F181917F41A06E1B978C3962 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				608B49B5DDACC601EE8044A1931993F9 /* Cosmos */,
+				7C8BE68AC2E163B0796807C085A41F08 /* Pods-InVision */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64ACD90BE8F69E7FD4BDFC22146B42DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D1D58A5ED379ABDA6BF567CE70A6372 /* Cosmos-dummy.m in Sources */,
+				3E73DB65BEC900EFC6EC35C5F2A526B3 /* CosmosAccessibility.swift in Sources */,
+				CC00126E443C3CEEFA221930E1B0CC54 /* CosmosDefaultSettings.swift in Sources */,
+				2336A7F0F45440935556D3DDAC798E27 /* CosmosLayerHelper.swift in Sources */,
+				984ACF077007E44906F6A2F419E3D3C9 /* CosmosLayers.swift in Sources */,
+				A0C58A338DA547DC3EAA5CD10A7D305E /* CosmosLocalizedRating.swift in Sources */,
+				299992941CFA463D0A7204190D39FA73 /* CosmosRating.swift in Sources */,
+				D7453EEDB3CD57C33612C94FCBF8A57E /* CosmosSettings.swift in Sources */,
+				883E1BE9856159DB1EBBEBEEA85D8199 /* CosmosSize.swift in Sources */,
+				DF717A08CF1193FFCA4FE75041293A18 /* CosmosText.swift in Sources */,
+				3EFCCC931EFB340108AB20B34C9FD626 /* CosmosTouch.swift in Sources */,
+				62A8CA31EA35172D3375E11586921F82 /* CosmosTouchTarget.swift in Sources */,
+				A84E190C472D28E1EB771327D55A0257 /* CosmosView.swift in Sources */,
+				7CCF424046BEED00EB99738D76C64132 /* StarFillMode.swift in Sources */,
+				63ECC77E4E536666556C8D2791280861 /* StarLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C20CC0180089D9767C8268DB9158B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1D1FC2043F10695A8871C34E3619C12 /* Pods-InVision-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A9CCD820428B90D2381EB7056E5A745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cosmos;
+			target = 608B49B5DDACC601EE8044A1931993F9 /* Cosmos */;
+			targetProxy = 451470D804827468E4471748776B45B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46054EC120F042EF5C819E83A674B2C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DE35E5B7FA70269B7EFF01EB7B6496B /* Pods-InVision.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-InVision/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InVision/Pods-InVision.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_InVision;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7BDAA28C0CFFECE7AC28A78BFEE0E893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 942D3F3A9DE924792BA42E77B8781BA8 /* Pods-InVision.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-InVision/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InVision/Pods-InVision.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_InVision;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E54566DF752550E85B42E822DBD4CF9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAAA82169E02FC93EF73DF78D874A242 /* Cosmos.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cosmos/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Cosmos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F9C6ED2D900D71B1F916ABDE3FC56F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAAA82169E02FC93EF73DF78D874A242 /* Cosmos.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cosmos/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Cosmos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD201CA742EC6CF37C50DD52C0C197D /* Build configuration list for PBXNativeTarget "Pods-InVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDAA28C0CFFECE7AC28A78BFEE0E893 /* Debug */,
+				46054EC120F042EF5C819E83A674B2C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B580BEC7E92B10FC3C82CD96A459AF5D /* Build configuration list for PBXNativeTarget "Cosmos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E54566DF752550E85B42E822DBD4CF9D /* Debug */,
+				F9C6ED2D900D71B1F916ABDE3FC56F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
